@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(189, 172, 172);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.container {
+    width: 70vw;
+    height: auto;
+    margin: 10px auto;
+    padding: 10px;
+    background-color: white;
+    border: 2px solid red;
+    text-align: left;
+    border-radius: 12px;
+}
+
+.heading {
+    color: dodgerblue;
+    text-align: center;
+    font-style: italic;
+    font-size: 30px;
+    padding: 20px;
+    /* border-bottom: 2px solid gray;*/
+    border-radius: 15px; 
+}
+
+.container h1 {
+    margin: 0px;
+    color: rgb(254, 254, 255);
+
+}
+
+p {
+    margin: 0px;
+    font-size: 27px;
+
+}
+
+.todo-img {
+    width: 40%;
+    border-radius: 50%;
+    margin: 1rem 5rem;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.tasksContainer {
+    gap: 10px;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 14px;
+}
+
+.taskList {
+    padding:  5px;
+    background-color: white;
+    align-items: left;
+    width: 96%;
+    border-bottom: 2px solid gray;
+
+}
+
+.taskList p {
+    padding: 1px 30px;
+    background-color: white;
+    border-radius: 15px;
+
+}
+
+.secondDiv {
+    padding: 4px;
+    text-align: left;
+}
+
+.taskName {
+    font-size: 19px;
+    font-weight: bold;
+}
+
+.dt {
+    color: red;
+}
+
+.tasks {
+    margin: auto;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    align-items: left;
+    border-radius: 13px;
+    background-color: white;
+
+}
+
+.tasks input {
+    margin-bottom: 8px;
+    font-size: 23px;
+    border-radius: 10px;
+    border: 1px solid gray;
+    padding: 5px;
+    width: 50vw;
+    text-align: left;
+    background-color: white;
+    flex-wrap: wrap;
+
+
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+
+}
+
+.date {
+    width: 20vw;
+}
+
+.btn {
+    padding: 5px 55px;
+    font-weight: bold;
+    border-radius: 10px;
+    font-size: 15px;
+    border: none;
+    background-color: blue;
+    color: white;
+}
+
+.hide-logo{
+    display:none;
+}

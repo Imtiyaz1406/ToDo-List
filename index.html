@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TO_DO</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="heading">
+            <h2>My Todo's</h2>
+        </div>
+
+        <div class="logo" >
+        <img src="./img/notfound.png" class="todo-img" alt="">
+            <h1>You have no task in the list</h2>
+            <p>Add the tasks to show in the list</p>
+        </div>
+
+        <div class="tasksContainer" id="tasksContainer">
+           <!-- <input type="checkbox" id="checkBox"> -->
+            <!-- <div class="taskList" id="taskList">
+                    <p id="taskName" class="taskName">Task 1</p>
+                    <p id="taskdesc">hii this is a Discription part </p>
+                    <p class="dt" id="taskdate" >date</p>
+            </div> -->
+        </div>
+       
+        <div class="tasks">
+            <input type="text" id="inputTask" placeholder="Enter Your Task">
+            <input type="text" id="inputDiscription" placeholder="Enter Discription">
+            <div class="flex">
+                <input type="datetime-local" id="inputDate" class="date"  id="" placeholder="Due Date">
+                <button class="btn" onclick="addTasks()">Add Task</button>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="./app.js"></script>
+</body>
+</html>
